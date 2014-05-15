@@ -12,3 +12,9 @@ var average = total/7;//divide the array access notations by 7 days in a week
 console.log(average);//print to add array access notations
 
 alert("You average " + average + " " + "hour(s) a week in riding your bike");//creating alert and concatenation
+
+//Using the average in a week to multiply by 4 weeks in a month to calculate monthly average
+average *= 4;//using assignment to multiply average by 4
+
+alert("You average " + average + " " + "hour(s) a month in riding your bike");//creating alert and concatenation
+
